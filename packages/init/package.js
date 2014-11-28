@@ -12,7 +12,7 @@ Package.onUse(function(api) {
       'modular:base@1.0.0',
   ], ['client', 'server']);
 
-  api.use('modular:main@1.0.0', { weak: true });
+  api.use('modular:main@1.0.0');
 
   api.addFiles([
     'lib/server_startup.js',
