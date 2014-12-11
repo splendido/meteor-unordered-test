@@ -14,22 +14,8 @@ Package.onUse(function(api) {
 
   api.addFiles('lib/main.js');
 
-  api.addFiles([
-    'lib/server_startup.js',
-  ], 'server');
-
-  api.addFiles([
-    'lib/client_startup.js',
-  ], 'client');
-
   api.export([
     'ModularClassLog',
     'ModularBC',
   ], ['client', 'server']);
-});
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('modular:base');
-  api.addFiles('tests/main.js');
 });

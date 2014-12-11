@@ -15,9 +15,3 @@ Package.onUse(function(api) {
     'lib/main.js',
   ], ['server', 'client']);
 });
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('modular:main');
-  api.addFiles('tests/main.js');
-});

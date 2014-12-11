@@ -10,7 +10,7 @@ check@1.0.2
 coffeescript@1.0.4
 ctl-helper@1.0.4
 ctl@1.0.2
-ddp@1.0.11
+ddp@1.0.12
 deps@1.0.5
 ejson@1.0.4
 fastclick@1.0.1
@@ -34,7 +34,7 @@ mobile-status-bar@1.0.1
 modular:base@1.0.0
 modular:init@1.0.0
 modular:main@1.0.0
-mongo@1.0.8
+mongo@1.0.9
 observe-sequence@1.0.3
 ordered-dict@1.0.1
 random@1.0.1
