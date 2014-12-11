@@ -17,6 +17,14 @@
       "1.0.0"
     ],
     [
+      "modular:init",
+      "1.0.0"
+    ],
+    [
+      "modular:main",
+      "1.0.0"
+    ],
+    [
       "underscore",
       "1.0.1"
     ]
